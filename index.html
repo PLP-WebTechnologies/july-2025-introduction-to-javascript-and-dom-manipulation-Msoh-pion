@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pion's Auto Parts Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚗 Welcome to Pion's Auto Parts Shop</h1>
+  <p id="shop-info">Your one-stop shop for quality auto parts!</p>
+
+  <!-- Part 1: Capture User Input -->
+  <h2>Check Discount Eligibility</h2>
+  <input type="number" id="amount" placeholder="Enter purchase amount">
+  <button id="check-discount-btn">Check Discount</button>
+  <p id="discount-result"></p>
+
+  <!-- Part 2: Functions -->
+  <h2>Order Calculator</h2>
+  <button id="order-btn">Buy 3 Brake Pads @ 2500 Ksh</button>
+  <p id="total-result"></p>
+
+  <!-- Part 3: Loops -->
+  <h2>Available Spare Parts</h2>
+<ul id="parts-list">
+  <li>Brake Pads</li>
+  <li>CVT Oils</li>
+</ul>
+
+
+  <!-- Part 4: DOM Interactions -->
+  <h2>Special Offers</h2>
+  <button id="toggle-offer">Show/Hide Offer</button>
+  <p id="offer" style="display:none;">🔥 Buy 2 CVT Oils, Get 1 Free!</p>
+
+  <!-- Load script after HTML -->
+  <script src="script.js" defer></script>
+</body>
+</html>
+
